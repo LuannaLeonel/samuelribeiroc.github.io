@@ -1,0 +1,33 @@
+:root {
+    --color-lighter: #efedf8;
+    --color-light: #d0cde1;
+    --color-spc: #a36bff;
+    --color-dark: #3f3d56;
+    --color-darker: #2f2e41;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-lighter);
+    font: 500 1.2rem Poppins;
+    font-family: Ubuntu, sans-serif;
+}
+
+.menu {
+    margin: 1.2rem auto auto 1.2rem;
+    justify-content: left;
+}
+
+.menu a {
+    padding: 20px;
+    color: var(--color-darker);
+}
