@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+}
+
+#navigation {
+    height: 100vh;
+    width: 64px;
+    position: fixed;
+    top: 30%;
+}
+
+#navigation .nav-bar {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigation .navigation-icon {
+    margin: 10px 20px 10px 20px;
+    list-style-type: none;
+}
