@@ -20,7 +20,7 @@ body {
     background-color: var(--color-lighter);
     font: 500 1.2rem Poppins;
     font-family: Ubuntu, sans-serif;
-    height: 200vh;
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -33,16 +33,4 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background: var(--color-spc);
-}
-
-#menu {
-    padding: 20px;
-    justify-content: left;
-    background-color: var(--color-lighter);
-    position: fixed;
-}
-
-#menu a {
-    margin: 20px;
-    color: var(--color-darker);
 }
