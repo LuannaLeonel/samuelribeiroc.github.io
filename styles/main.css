@@ -20,7 +20,7 @@ body {
     background-color: var(--color-lighter);
     font: 500 1.2rem Poppins;
     font-family: Ubuntu, sans-serif;
-    height: 100vh;
+    height: 200vh;
 }
 
 body::-webkit-scrollbar {
