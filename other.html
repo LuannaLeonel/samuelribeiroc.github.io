@@ -9,12 +9,25 @@
     <title>Samuel Costa - About me</title>
     <link rel="shortcut icon" href="/icons/wind.svg">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/secondary-pages.css">
 
 </head>
 
 <body>
+
+    <div id="menu">
+        <div class="modes">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <img src="/icons/sun-atv.svg" alt="Light mode" class="light">
+                <img src="/icons/moon-atv.svg" alt="Dark mode" class="dark">
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
 
     <nav id="navigation">
         <ul class="nav-bar">
@@ -38,7 +51,7 @@
                     <img src="/icons/skills-dark.svg" alt="Skills">
                 </a>
             </li>
-            <li class="navigation-icon">
+            <li>
                 <a href="other.html">
                     <img src="/icons/other-click.svg" alt="Other informations">
                 </a>
@@ -46,6 +59,7 @@
         </ul>
     </nav>
     
+    <script src="/scripts/dark-mode.js"></script>
 </body>
 
 </html>

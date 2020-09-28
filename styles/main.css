@@ -14,13 +14,15 @@
 
 a {
     text-decoration: none;
+    color: var(--color-darker);
 }
 
 body {
     background-color: var(--color-lighter);
     font: 500 1.2rem Poppins;
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     height: 200vh;
+    transition: background 0.2s linear;
 }
 
 body::-webkit-scrollbar {
@@ -33,4 +35,22 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background: var(--color-spc);
+}
+
+body.dark::-webkit-scrollbar-track {
+    background: var(--color-lighter);
+}
+
+body.dark, body.dark .menu-nav,
+body.dark .modes {
+    background-color: var(--color-dark);
+}
+
+body.dark h5, body.dark h1,
+body.dark h3, body.dark a {
+    color: var(--color-lighter);
+}
+
+body.dark .navigation-icon {
+    filter: invert(99%) sepia(14%) saturate(4256%) hue-rotate(181deg) brightness(97%) contrast(81%);
 }

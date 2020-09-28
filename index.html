@@ -9,6 +9,8 @@
     <title>Samuel Costa</title>
     <link rel="shortcut icon" href="/icons/wind.svg">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/presentation.css">
 
@@ -17,22 +19,33 @@
 <body class="principal">
 
     <div id="menu">
-        <a href="index.html">Presentation</a>
-        <a href="about.html">About me</a>
-        <a href="projects.html">Projects</a>
-        <a href="skills.html">Skills</a>
-        <a href="other.html">Other informations</a>
+        <div class="menu-nav" class="dark">
+            <a href="index.html">Presentation</a>
+            <a href="about.html">About me</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="other.html">Other informations</a>
+        </div>
+
+        <div class="modes">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <img src="/icons/sun-atv.svg" alt="Light mode" class="light">
+                <img src="/icons/moon-atv.svg" alt="Dark mode" class="dark">
+                <div class="ball"></div>
+            </label>
+        </div>
     </div>
 
     <div id="present">
         <div class="text">
-            <h5>
+            <h5 class="dark">
                 Hello, stranger. I'm
             </h5>
-            <h1>
+            <h1 class="dark">
                 Samuel Costa
             </h1>
-            <h3>
+            <h3 class="dark">
                 Front-end developer
             </h3>
         </div>
@@ -42,6 +55,7 @@
         </div>
     </div>
     
+    <script src="/scripts/dark-mode.js"></script>
 </body>
 
 </html>
