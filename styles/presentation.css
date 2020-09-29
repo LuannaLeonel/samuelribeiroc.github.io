@@ -2,9 +2,7 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 8fr 1fr;
-    background-color: var(--color-lighter);
-    /*width: 100vw;*/
-    /*position: fixed;*/
+    background-color: var(--color-mid-light);
 }
 
 #menu .menu-nav {

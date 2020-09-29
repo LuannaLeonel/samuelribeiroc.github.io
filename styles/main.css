@@ -43,9 +43,13 @@ body.dark::-webkit-scrollbar-track {
     background: var(--color-lighter);
 }
 
-body.dark, body.dark .menu-nav,
-body.dark .modes {
+body.dark {
     background-color: var(--color-darkiest);
+}
+
+body.dark .menu-nav,
+body.dark .modes {
+    background-color: var(--color-darker);
 }
 
 body.dark h5, body.dark h1,
