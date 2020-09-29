@@ -1,9 +1,11 @@
 :root {
     --color-lighter: #efedf8;
+    --color-mid-light: #dedcea;
     --color-light: #d0cde1;
     --color-spc: #a36bff;
     --color-dark: #3f3d56;
     --color-darker: #2f2e41;
+    --color-darkiest: #12121d;
 }
 
 * {
@@ -21,7 +23,7 @@ body {
     background-color: var(--color-lighter);
     font: 500 1.2rem Poppins;
     font-family: 'Montserrat Alternates', sans-serif;
-    height: 200vh;
+    height: 100vh;
     transition: background 0.2s linear;
 }
 
@@ -43,7 +45,7 @@ body.dark::-webkit-scrollbar-track {
 
 body.dark, body.dark .menu-nav,
 body.dark .modes {
-    background-color: var(--color-dark);
+    background-color: var(--color-darkiest);
 }
 
 body.dark h5, body.dark h1,

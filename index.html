@@ -13,18 +13,19 @@
 
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/presentation.css">
+    <link rel="stylesheet" href="/styles/secondary-pages.css">
 
 </head>
 
 <body class="principal">
 
-    <div id="menu">
+    <header id="menu">
         <div class="menu-nav" class="dark">
-            <a href="index.html">Presentation</a>
-            <a href="about.html">About me</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="other.html">Other informations</a>
+            <a href="#present">Presentation</a>
+            <a href="#about-page">About me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#other">Other informations</a>
         </div>
 
         <div class="modes">
@@ -35,9 +36,9 @@
                 <div class="ball"></div>
             </label>
         </div>
-    </div>
+    </header>
 
-    <div id="present">
+    <section id="present">
         <div class="text">
             <h5 class="dark">
                 Hello, stranger. I'm
@@ -53,7 +54,57 @@
         <div class="image">
             <img src="/draws/undraw_feeling_proud_qne1.svg" alt="Hacker mindset">
         </div>
-    </div>
+    </section>
+
+    <section id="secondary-pages">
+        <nav id="navigation" class="dark">
+            <ul class="nav-bar">
+                <li class="navigation-icon">
+                    <a href="#present">
+                        <img src="/icons/home-dark.svg" alt="Presentation">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#about">
+                        <img src="/icons/about-dark.svg" alt="About me">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#projects">
+                        <img src="/icons/proj-dark.svg" alt="Projects">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#skills">
+                        <img src="/icons/skills-dark.svg" alt="Skills">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#other">
+                        <img src="/icons/other-dark.svg" alt="Other informations">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="about-page"></div>
+
+        <section id="about">
+
+        </section>
+
+        <section id="projects">
+
+        </section>
+
+        <section id="skills">
+
+        </section>
+
+        <section id="other">
+
+        </section>
+    </section>
     
     <script src="/scripts/dark-mode.js"></script>
 </body>
