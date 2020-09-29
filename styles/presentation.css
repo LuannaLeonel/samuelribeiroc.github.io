@@ -70,7 +70,7 @@
 #present {
     height: 50vh;
     width: 80vw;
-    margin: 15vh auto auto auto;
+    margin: 15vh auto 28vh auto;
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-template-rows: 50vh 1fr;

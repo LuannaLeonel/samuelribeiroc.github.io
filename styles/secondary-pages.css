@@ -1,5 +1,51 @@
 #about {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .about-area {
+    width: 900px;
+    height: 50vh;
+    margin: 25vh auto 25vh auto;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 6fr;
+}
+
+#about .about-area .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-spc);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#about .about-area .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#about .image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#about .image img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+#about .desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #projects {

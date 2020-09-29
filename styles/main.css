@@ -49,7 +49,8 @@ body.dark .modes {
 }
 
 body.dark h5, body.dark h1,
-body.dark h3, body.dark a {
+body.dark h3, body.dark a,
+body.dark p {
     color: var(--color-lighter);
 }
 
