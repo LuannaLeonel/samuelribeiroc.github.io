@@ -22,7 +22,7 @@ a {
 body {
     background-color: var(--color-lighter);
     font: 500 1.2rem Poppins;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     transition: background 0.2s linear;
 }
@@ -47,9 +47,22 @@ body.dark {
     background-color: var(--color-darkiest);
 }
 
+body.dark #about,
+body.dark #skills {
+    background-color: var(--color-darker);
+}
+
 body.dark .menu-nav,
 body.dark .modes {
     background-color: var(--color-darker);
+}
+
+body.dark #projects .proj-area .projects-area .proj {
+    background-color: var(--color-darker);
+}
+
+body.dark #projects .proj-area .proj-title span {
+    color: var(--color-spc);
 }
 
 body.dark h5, body.dark h1,

@@ -11,7 +11,7 @@
 }
 
 #menu .menu-nav a {
-    margin: 20px 0 20px 40px;
+    margin: 3.5vh 0 3.5vh 40px;
     transition: 0.2s;
     font-weight: 500;
 }
@@ -68,7 +68,7 @@
 #present {
     height: 50vh;
     width: 80vw;
-    margin: 15vh auto 28vh auto;
+    margin: 18vh auto 22vh auto;
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-template-rows: 50vh 1fr;
