@@ -40,10 +40,32 @@
 }
 
 #about .desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    color: var(--color-darker);
+}
+
+#about .desc p {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-darker);
+}
+
+#about .desc .social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2.5vw;
+}
+
+#about .desc .social-medias .change-color-icon {
+    filter: invert(14%) sepia(11%) saturate(1919%) hue-rotate(204deg) brightness(90%) contrast(85%);
+}
+
+#about .desc .social-medias img {
+    width: 2vw;
+    margin: 0.5vh 1vw -0.1vh;
 }
 
 #projects {
@@ -150,6 +172,42 @@
     height: 100vh;
     background-color: var(--color-mid-light);
     display: flex;
+}
+
+#skills .skills-area {
+    width: 80vw;
+    height: 80vh;
+    margin: 10vh auto 10vh auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+#skills .skills-area .skills-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills .skills-area .skills-title .my-skillset {
+    font-size: 2rem;
+    color: var(--color-darker);
+}
+
+#skills .skills-area .skillset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#skills .skills-area .skillset .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills .skills-area .skillset .skill img {
+    width: 10vw;
 }
 
 #other {
