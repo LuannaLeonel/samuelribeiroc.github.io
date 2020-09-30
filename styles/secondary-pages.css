@@ -287,6 +287,7 @@
     font-size: 1rem;
     font-weight: 300;
     color: var(--color-darker);
+    text-align: justify;
 }
 
 #other .other .other-infos .info-area .social-medias {
