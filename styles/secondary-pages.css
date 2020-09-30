@@ -1,7 +1,13 @@
 #about {
     height: 100vh;
     display: flex;
-    background-color: var(--color-mid-light);
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dedcea+21,cfcdd6+100 */
+    background: #dedcea; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #dedcea 21%, #cfcdd6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #dedcea 21%,#cfcdd6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #dedcea 21%,#cfcdd6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedcea', endColorstr='#cfcdd6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #about .about-area {
@@ -152,6 +158,10 @@
     z-index: 1;
 }
 
+#projects .proj-area .projects-area .proj .content-proj h3 {
+    color: var(--color-darker);
+}
+
 #projects .proj-area .projects-area .proj .content-proj .visit {
     position: relative;
     top: 200px;
@@ -170,7 +180,14 @@
 
 #skills {
     height: 100vh;
-    background-color: var(--color-mid-light);
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dedcea+21,cfcdd6+100 */
+    background: #dedcea; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #dedcea 21%, #cfcdd6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #dedcea 21%,#cfcdd6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #dedcea 21%,#cfcdd6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedcea', endColorstr='#cfcdd6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
     display: flex;
 }
 
@@ -215,6 +232,75 @@
     display: flex;
 }
 
+#other .other {
+    height: 90vh;
+    width: 85vw;
+    margin: 5vh auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+#other .other .other-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#other .other .other-title span {
+    font-size: 2rem;
+    color: var(--color-darker);
+}
+
+#other .other .other-infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#other .other .other-infos .info-area {
+    margin: 5vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 3fr 1.5fr;
+    row-gap: 1vh;
+    background-color: var(--color-light);
+    border-radius: 10px;
+}
+
+#other .other .other-infos .info-area .info-draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#other .other .other-infos .info-area .info-draw img {
+    width: 13vw;
+}
+
+#other .other .other-infos .info-area .info-text {
+    margin: 0 5vh;
+}
+
+#other .other .other-infos .info-area .info-text p {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-darker);
+}
+
+#other .other .other-infos .info-area .social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#other .other .other-infos .info-area .social-medias img {
+    filter: invert(14%) sepia(10%) saturate(1859%) hue-rotate(204deg) brightness(99%) contrast(87%);
+    width: 2.2vw;
+    margin: 0 2vw 0 2vw;
+}
+
 #secondary-pages #navigation {
     height: 100vh;
     width: 64px;
@@ -234,4 +320,21 @@
 #navigation li {
     margin: 10px 20px 10px 20px;
     list-style-type: none;
+}
+
+#footer {
+    height: 10vh;
+    background-color: var(--color-light);
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 40px;
+}
+
+#footer .text {
+    width: 95vw;
+    margin: 1vh auto 1vh auto;
+}
+
+#footer .text span {
+    color: var(--color-darkiest);
 }
