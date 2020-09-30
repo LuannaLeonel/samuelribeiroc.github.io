@@ -139,13 +139,13 @@
 }
 
 #projects .proj-area .projects-area .proj .img-proj img {
-    width: 7vw;
+    height: 7vw;
     max-width: 100%;
     transition: 0.5s;
 }
 
 #projects .proj-area .projects-area .proj:hover .img-proj img {
-    max-width: 30%;
+    max-width: 35%;
 }
 
 #projects .proj-area .projects-area .proj .content-proj {
